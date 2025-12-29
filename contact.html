@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glamour Salon | Beauty & Style</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Glamour Salon</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="prices.html">Styles & Prices</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+ 
+ 
+ 
+  <section class="section">
+    <h2>Book an Appointment</h2>
+  
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="tel" id="phone" placeholder="Phone Number" required>
+      <select id="service">
+        <option>Braids</option>
+        <option>Wigs</option>
+        <option>Nails</option>
+      </select>
+      <textarea id="message" placeholder="Additional notes"></textarea>
+      <button type="submit" class="btn">Book via WhatsApp</button>
+    </form>
+  </section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
